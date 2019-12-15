@@ -10,5 +10,6 @@ public class TestProject {
     @Test
     public void testProject(){
         System.out.println("success");
+        System.out.println("成功");
     }
 }
