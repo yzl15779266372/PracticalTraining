@@ -13,7 +13,7 @@ public class JdbcUtils {
 	
 	static {
 		Properties properties = new Properties();
-		InputStream inStream = JdbcUtils.class.getClassLoader().getResourceAsStream("resource/druid.properties");
+		InputStream inStream = JdbcUtils.class.getClassLoader().getResourceAsStream("resources/druid.properties");
 		try {
 			properties.load(inStream);
 			dataSource = DruidDataSourceFactory.createDataSource(properties);
